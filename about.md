@@ -3,6 +3,7 @@ layout: page
 title: About Me
 ---
 
+My image:
 ![alt text](/images/mainprofile.jpg)
 
 
