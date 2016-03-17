@@ -7,5 +7,5 @@ I'm testing this out.
 
 Hello world.
 
-{% for post in site.posts %}{{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})  
+{% for project in site.projects %}{{ project.date | date_to_string }} &raquo; [ {{ project.title }} ]({{ project.url }})  
 {% endfor %}
