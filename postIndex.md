@@ -1,6 +1,6 @@
 ---
 layout: page
-title: I'm testing this out
+title: Project Index
 ---
 
 I'm testing this out.
