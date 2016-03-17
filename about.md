@@ -5,7 +5,7 @@ title: About Me
 
 Hi! I'm Phil Chang, a recent graduate of Carnegie Mellon University's Materials Science and Engineering program (Class of 2015). I like to experiment in many different interests and this website serves to document some of the many personal projects I've worked on in the past few years.
 
-I'm an avid audiophile, always interested in trying and listening to new experiences. I've used my skills in audio as an active member of my church and college fellowship, [Rutgers Community Christian Church] (http://ec.rccc.org/) and CMU's [Asian Christian Fellowship] (http://acfpcc.org/), where I've served the Lord joyfully behind the soundboard as part of the Audio/Visual team. I've also done live mixing for CMU's Christian a capella group, [Joyful Noise] (http://cmujoyfulnoise.com/).
+I'm an avid audiophile, always interested in trying and listening to new experiences. I've used my skills in audio as an active member of my church and college fellowship, [Rutgers Community Christian Church](http://ec.rccc.org/) and CMU's [Asian Christian Fellowship](http://acfpcc.org/), where I've served the Lord joyfully behind the soundboard as part of the Audio/Visual team. I've also done live mixing for CMU's Christian a capella group, [Joyful Noise](http://cmujoyfulnoise.com/).
 
 I'm also a huge basketball fan, whether it's playing pickup on the court or faithfully following the Boston Celtics. I like to see the game from both a physical and mental standpoint, and the sheer depth of the game of basketball continues to astound and intrigue me.
 
