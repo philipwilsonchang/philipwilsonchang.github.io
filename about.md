@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-<div style="text-align:center"><img src ="/images/mainprofile.jpg" /></div>
+<center><img src ="/images/mainprofile.jpg" /></center>
 
 Hi! I'm Phil Chang, a recent graduate of Carnegie Mellon University's Materials Science and Engineering program (Class of 2015). I like to experiment in many different interests and this website serves to document some of the many personal projects I've worked on in the past few years.
 
