@@ -7,9 +7,9 @@ permalink:        pretty
 
 # Setup
 title:            Phil Chang
-tagline:          'A breakdown of me'
-description:      'An archive of dives and tries into questions that rise'
-url:              http://test.philchang.me
+tagline:          ''
+description:      ''
+url:              http://philchang.me
 baseurl:          /
 
 author:
