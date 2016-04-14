@@ -7,36 +7,36 @@ This is a project I've added to and developed since high school. Ever since I fi
 
 <center><img src="/images/capacitor-bank-2.jpg" width="250"></center>
 
-###### I bought a bag of flash capacitors off of Digikey and got to work soldering them in parallel.
+I bought a bag of flash capacitors off of Digikey and got to work soldering them in parallel.
 
 <center><img src="/images/capacitor-bank-4.jpg" width="250"></center>
 
-###### The completed capacitor bank.
+The completed capacitor bank.
 
 <center><img src="/images/capacitor-bank-8.jpg" width="250"></center>
 
-###### The entire system at a glance.
+The entire system at a glance.
 
 <center><img src="/images/capacitor-bank-11.jpg" width="250"></center>
 
-###### Closeup of the charging circuit with AA battery holder (the original disposable camera that I first shocked myself with!).
+Closeup of the charging circuit with AA battery holder (the original disposable camera that I first shocked myself with!).
 
 <center><img src="/images/capacitor-bank-10.jpg" width="250"></center>
 
-###### The discharge tips, harvested off of a cheap voltmeter.
+The discharge tips, harvested off of a cheap voltmeter.
 
 <center><img src="/images/capacitor-bank-13.jpg" width="250"></center>
 
-###### The charging switch, which does not touch the capacitor bank circuit. The capacitors remain charged until they are discharged through the discharge tips.
+The charging switch, which does not touch the capacitor bank circuit. The capacitors remain charged until they are discharged through the discharge tips.
 
 <center><img src="/images/capacitor-bank-12.jpg" width="250"></center>
 
-###### The entire system is built into an acrylic box for safety. When stored, the capacitors are discharged and the AA batteries removed.
+The entire system is built into an acrylic box for safety. When stored, the capacitors are discharged and the AA batteries removed.
 
 <center><img src="/images/capacitor-bank-6.jpg" width="250"></center>
 
-###### Penny before discharging.
+Penny before discharging.
 
 <center><img src="/images/capacitor-bank-7.jpg" width="250"></center>
 
-###### Penny after discharging. Note that the spark vaporizes two small craters into the copper surface of the penny, exposing the zinc and throwing it everywhere.
+Penny after discharging. Note that the spark vaporizes two small craters into the copper surface of the penny, exposing the zinc and throwing it everywhere.
