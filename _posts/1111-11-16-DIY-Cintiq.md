@@ -29,7 +29,7 @@ I put this digitizer under the laptop display also procured on eBay, connected t
 
 <center><img src="/images/cintiq-24.jpg" width="350"></center>
 
-<center><img src="/images/cintiq-27.jpg" width="350"></center>
+<center><img src="/images/cintiq-17.jpg" width="350"></center>
 
 ...holy crap. What just happened. I panicked for a bit and fiddled with the display's color settings, checked all the connections, and found nothing that seemed to be wrong. The display's built-in menu displayed colors correctly so I surmised that it was an issue with the LVDS/VGA converter. I ended up contacting the eBay vendor who sold me the display converter and arranged for a replacement.
 
