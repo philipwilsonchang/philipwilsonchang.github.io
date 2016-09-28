@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DIY Custom IEMs - Electronics and Finishing
+title: DIY Custom IEMs - Part 2 - Electronics and Finishing
 ---
 
 Lorem ipsum dolor.

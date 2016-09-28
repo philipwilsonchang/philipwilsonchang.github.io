@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DIY Custom IEMs - Shell Casting
+title: DIY Custom IEMs - Part 1 - Shell Casting
 ---
 
 Custom IEMs are the muscle cars of the musician and audiophile world; powerful and functional, yet highly varied and customizable. Typically made of acrylic or silicone, they are molded to a listener's ear to provide a complete and comfortable seal that has unparalleled noise attenuation. They are fitted with drivers (often multiple per ear) specifically tuned to create a specific sound signature based on one's needs and tastes. And like muscle cars, they are highly priced - often in the range of $500 or more per pair. 
