@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DIY Custom IEMs 
+title: DIY Custom IEMs - Shell Casting
 ---
 
 Custom IEMs are the muscle cars of the musician and audiophile world; powerful and functional, yet highly varied and customizable. Typically made of acrylic or silicone, they are molded to a listener's ear to provide a complete and comfortable seal that has unparalleled noise attenuation. They are fitted with drivers (often multiple per ear) specifically tuned to create a specific sound signature based on one's needs and tastes. And like muscle cars, they are highly priced - often in the range of $500 or more per pair. 
@@ -105,7 +105,7 @@ A perfect pair!
 
 I decided to try another UV nail gel resin that I bought off of eBay. This resin stunk a lot more than the Gelaze and was a lot less consistent in quality - some was runny and some was gummy and in general, was really hard to work with.
 
-The next thing to try was to coat the impressions in UV nail gel resin to create a smoother mold. These shells were the ones to come out of that:
+The next thing to try was to coat the shells in UV nail gel resin to create a smoother shell. These shells were the ones to come out of that:
 
 <center><img src="/images/diem-28.JPG" width="350"></center>
 
