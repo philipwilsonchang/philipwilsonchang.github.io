@@ -55,7 +55,7 @@ function drawNumbers(ctx, radius) {
         ctx.lineWidth = radius * 0.01;
         ctx.lineCap = "round"
         ctx.moveTo(0, radius * 0.85);
-        ctx.lineTo(0, radius * 0.90)
+        ctx.lineTo(0, radius * 0.90);
         ctx.stroke();
         ctx.rotate(-ang);
     }
