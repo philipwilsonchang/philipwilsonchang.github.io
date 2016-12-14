@@ -11,3 +11,8 @@ canvas {
 	display: block;
 	width: 400;
 }
+
+h1 {
+	color: black;
+	text-align: center;
+}
