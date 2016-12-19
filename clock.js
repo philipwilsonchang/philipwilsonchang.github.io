@@ -5,15 +5,43 @@ var mode = "clock";
 var currentHandPositions = [0,0,0];
 ctx.translate(radius, radius);
 radius = radius * 0.90;
+
+window.addEventListener('keydown', keyHandler, false);
 window.requestAnimationFrame(drawClock);
+
+function keyHandler(press) {
+    var keyPressed = press.keyCode;
+    switch (keyPressed) {
+        case 80: mode = "paused"; break;    // P
+        case 82: mode = "clock"; window.requestAnimationFrame(drawClock); break;    // R
+        default: mode = "clock"; window.requestAnimationFrame(drawClock);           // everything else
+    }
+}
+
+function pauseButton() {
+    if (mode != "paused") {
+        mode = "paused";
+        window.requestAnimationFrame(drawClock);
+    }
+}
+
+function resetButton() {
+    if (mode != "clock") {
+        mode = "clock";
+        window.requestAnimationFrame(drawClock);
+    }
+}
 
 function drawClock() {
 	drawFace(ctx, radius);
 	drawNumbers(ctx, radius);
     if (mode == "clock") {
         currentHandPositions = drawHandsOnTime(ctx, radius);
+        window.requestAnimationFrame(drawClock);
     }
-    window.requestAnimationFrame(drawClock);
+    else {
+        currentHandPositions = drawHandsOnTime(ctx, radius);
+    }
 }
 
 function drawFace(ctx, radius) {

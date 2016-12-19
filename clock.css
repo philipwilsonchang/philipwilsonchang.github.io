@@ -17,3 +17,52 @@ h1 {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
 }
+
+.pauseButton {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: blue;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px grey;
+}
+
+.pauseButton:hover {
+	background-color: steelblue;
+}
+
+.pauseButton:active {
+	background-color: steelblue;
+	box-shadow: 0 5px black;
+	transform: translateY(4px);
+}
+
+.resetButton {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: lightgreen;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px grey;
+}
+
+.resetButton:hover {
+	background-color: green;
+}
+
+.resetButton:active {
+	background-color: green;
+	box-shadow: 0 5px black;
+	transform: translateY(4px);
