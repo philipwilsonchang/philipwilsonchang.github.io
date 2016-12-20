@@ -31,10 +31,10 @@ function pauseButton() {
     }
 }
 
-function resetButton() {
+function zeroButton() {
     if (mode != "reset") {
         mode = "reset";
-        window.requestAnimationFrame(resetClock);
+        window.requestAnimationFrame(zeroClock);
     }
 }
 
@@ -57,7 +57,7 @@ function drawClock() {
     }
 }
 
-function resetClock() {
+function zeroClock() {
   // Draw clock face and numbers
   drawFace(ctx, radius);
   drawNumbers(ctx, radius);
@@ -78,7 +78,7 @@ function resetClock() {
   if (interHour + interMinute + interSecond > 0.01) {
     currentHandPositions = [interHour, interMinute, interSecond]
     console.log("Resetting...");
-    window.requestAnimationFrame(resetClock);
+    window.requestAnimationFrame(zeroClock);
   }
   else {
     console.log("Completed reset");
