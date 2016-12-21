@@ -24,24 +24,28 @@ function resizeCanvas() {
 function pauseButton() {
     if (mode != "paused") {
         mode = "paused";
+        console.log("Mode: Paused");
         window.requestAnimationFrame(drawClock);
     }
     else {
-      mode = "clock";
-      window.requestAnimationFrame(drawClock);
+      mode = "reset";
+      console.log("Mode: Returning");
+      window.requestAnimationFrame(returnClock);
     }
 }
 
 function zeroButton() {
     if (mode != "zeroed") {
         mode = "zero";
+        console.log("Mode: Zeroing");
         document.getElementById('zeroButton').innerHTML = "Reset";
         window.requestAnimationFrame(zeroClock);
     }
     else if (mode == "zeroed") {
-      mode = "clock"
+      mode = "reset"
+      console.log("Mode: Returning");
       document.getElementById('zeroButton').innerHTML = "Zero";
-      window.requestAnimationFrame(drawClock);
+      window.requestAnimationFrame(returnClock);
     }
 }
 
@@ -52,22 +56,22 @@ function zeroButton() {
 function drawClock() {
 	drawFace(ctx, clockRadius);
 	drawNumbers(ctx, clockRadius);
-    if (mode == "clock") {
-        currentHandPositions = drawHandsOnTime(ctx, clockRadius);
-        window.requestAnimationFrame(drawClock);
-    }
-    else {
-        drawHands(ctx, currentHandPositions, clockRadius);
-    }
+  if (mode == "clock") {
+      currentHandPositions = drawHandsOnTime(ctx, clockRadius);
+      window.requestAnimationFrame(drawClock);
+  }
+  else {
+      drawHands(ctx, currentHandPositions, clockRadius);
+  }
 }
 
 function zeroClock() {
   // Draw clock face and numbers
   drawFace(ctx, clockRadius);
   drawNumbers(ctx, clockRadius);
-  var interHour = (0 + currentHandPositions[0]) / 1.06;
-  var interMinute = (0 + currentHandPositions[1]) / 1.06;
-  var interSecond = (0 + currentHandPositions[2]) / 1.06;
+  var interHour = (currentHandPositions[0]) / 1.06;
+  var interMinute = (currentHandPositions[1]) / 1.06;
+  var interSecond = (currentHandPositions[2]) / 1.06;
   drawHands(ctx, [interHour, interMinute, interSecond], clockRadius);
 
   console.log(interHour + interMinute + interSecond);
@@ -80,7 +84,56 @@ function zeroClock() {
   else {
     console.log("Completed reset");
     mode = "zeroed";
+    console.log("Mode: Zeroed");
     window.requestAnimationFrame(drawClock);
+  }
+}
+
+function returnClock() {
+  /// Draw clock face and numbers
+  drawFace(ctx, clockRadius);
+  drawNumbers(ctx, clockRadius);
+
+  var now = new Date();
+  var hour = now.getHours();
+  var minute = now.getMinutes();
+  var second = now.getSeconds();
+  var millisecond = now.getMilliseconds();
+  var storedTimePositions = [0,0,0];
+
+  // Get target hour hand position
+  hour = hour % 12;
+  hour = (hour * Math.PI/6) + (minute * Math.PI/(6 * 60)) + (second * Math.PI/(360 * 60));
+  storedTimePositions[0] = hour;
+  // Get target minute hand position
+  minute = (minute * Math.PI/30) + (second * Math.PI/(30 * 60));
+  storedTimePositions[1] = minute;
+  // Get target second hand position
+  second = (second * Math.PI/30) + (millisecond * Math.PI/(30 * 1000));
+  storedTimePositions[2] = second;
+
+  // Create intermediate hand positions
+  var interHour = (storedTimePositions[0] - currentHandPositions[0]) * 0.06 + currentHandPositions[0];
+  var interMinute = (storedTimePositions[1] - currentHandPositions[1]) * 0.06 + currentHandPositions[1];
+  var interSecond = (storedTimePositions[2] - currentHandPositions[2]) * 0.06 + currentHandPositions[2];
+
+  // Draw hands at intermeidate positions
+  drawHands(ctx, [interHour, interMinute, interSecond], clockRadius);
+
+  // console.log(storedTimePositions[0] - currentHandPositions[0]);
+  // console.log(storedTimePositions[1] - currentHandPositions[1]);
+  console.log(storedTimePositions[2] - currentHandPositions[2]);
+
+  if ((storedTimePositions[0] - currentHandPositions[0] < 0.01) &&
+      (storedTimePositions[1] - currentHandPositions[1] < 0.05) &&
+      (storedTimePositions[2] - currentHandPositions[2] < 0.04)) {
+        mode = "clock";
+        console.log("Mode: Clock");
+        window.requestAnimationFrame(drawClock);
+  }
+  else {
+    currentHandPositions = [interHour, interMinute, interSecond];
+    window.requestAnimationFrame(returnClock);
   }
 
 }
