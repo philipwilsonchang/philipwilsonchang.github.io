@@ -7,9 +7,19 @@ ctx.translate(clockRadius, clockRadius);
 clockRadius = clockRadius * 0.90;
 
 // window.addEventListener('keydown', keyHandler, false);
-window.requestAnimationFrame(drawClock);
+window.addEventListener('resize', resizeCanvas, false);
+resizeCanvas();
 
 // INTERACTIVE CODE
+
+function resizeCanvas() {
+  canvas.width = Math.min(window.innerWidth, window.innerHeight) - 100;
+  canvas.height = Math.min(window.innerWidth, window.innerHeight) - 100;
+  clockRadius = canvas.height / 2;
+  ctx.translate(clockRadius, clockRadius);
+  clockRadius = clockRadius * 0.90;
+  window.requestAnimationFrame(drawClock);
+}
 
 function pauseButton() {
     if (mode != "paused") {
