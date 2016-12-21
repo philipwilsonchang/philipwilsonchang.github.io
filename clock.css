@@ -18,7 +18,7 @@ h1 {
 	text-align: center;
 }
 
-.pauseButton {
+#pauseButton {
 	display: inline-block;
 	padding: 15px 25px;
 	font-size: 24px;
@@ -33,17 +33,17 @@ h1 {
 	box-shadow: 0 9px grey;
 }
 
-.pauseButton:hover {
+#pauseButton:hover {
 	background-color: steelblue;
 }
 
-.pauseButton:active {
+#pauseButton:active {
 	background-color: steelblue;
 	box-shadow: 0 5px black;
 	transform: translateY(4px);
 }
 
-.zeroButton {
+#zeroButton {
 	display: inline-block;
 	padding: 15px 25px;
 	font-size: 24px;
@@ -58,11 +58,11 @@ h1 {
 	box-shadow: 0 9px grey;
 }
 
-.zeroButton:hover {
+#zeroButton:hover {
 	background-color: green;
 }
 
-.zeroButton:active {
+#zeroButton:active {
 	background-color: green;
 	box-shadow: 0 5px black;
 	transform: translateY(4px);
