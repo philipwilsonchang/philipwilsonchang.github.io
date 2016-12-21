@@ -19,8 +19,8 @@ h1 {
 
 #pauseButton {
 	display: inline-block;
-	padding: 15px 25px;
-	font-size: 24px;
+	padding: 20px 35px;
+	font-size: 32px;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
@@ -44,8 +44,8 @@ h1 {
 
 #zeroButton {
 	display: inline-block;
-	padding: 15px 25px;
-	font-size: 24px;
+	padding: 20px 35px;
+	font-size: 32px;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;

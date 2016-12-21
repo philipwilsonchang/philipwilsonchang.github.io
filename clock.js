@@ -204,7 +204,4 @@ function drawSecondHand(ctx, pos, length, width) {
 
 // ToDo:
 // - create crown for adjusting time - with click in and out, and hold and drag to move crown
-// - make crown/button touch friendly
-// - make clock resize with browser size: http://stackoverflow.com/questions/4288253/html5-canvas-100-width-height-of-viewport
 // - create timer function with button - slowly move hands to 12:00:00 when activated
-// - redo drawing functions to make it easy to draw custom times
