@@ -107,6 +107,7 @@ function update() {
         player.body.velocity.x = -150;
 
         player.animations.play('left');
+        console.log("LEFT")
     }
     else if (cursors.right.isDown)
     {
@@ -114,6 +115,7 @@ function update() {
         player.body.velocity.x = 150;
 
         player.animations.play('right');
+        console.log("RIGHT")
     }
     else
     {
