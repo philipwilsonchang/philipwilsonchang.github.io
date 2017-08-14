@@ -19,3 +19,33 @@ h2 {
 	font-size:32pt;
 	text-align: center;
 }
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 14px 16px;
+	width: 180px;
+	color: white;
+	background-color: darkblue;
+}
+
+li a:hover{
+	background-color: lightsteelblue;
+	color: white;
+}
+
+.active {
+	background-color: lightsteelblue;
+	color: white;
+}
