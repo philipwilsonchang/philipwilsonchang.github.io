@@ -1,14 +1,21 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="clock.css">
+		<link rel="stylesheet" href="basketballShotTracker.css">
 	</head>
 	<body>
-		<canvas id="canvas" width="400" height="400"></canvas>
-		<script src="clock.js"></script>
+		<script src="basketballShotTracker.js"></script>
 		<!-- <h1> I spent way too much time on this clock.</h1> -->
-		<div class="buttonTable" align="center">
-			<button id="pauseButton" onclick="pauseButton()"> Pause </button>
-			<button id="zeroButton" onclick="zeroButton()"> Zero </button>
+
+    <div class="display" align="center">
+      <div class="percentDisplay"></div>
+      <div class="fractionDisplay"></div>
+    </div>
+    
+    <div class="buttonTable" align="center">
+			<button id="madeButton" onclick="madeButton()"> Made </button>
+			<button id="missButton" onclick="missButton()"> Miss </button>
+      <button id="zeroButton" onclick="zeroButton()"> Zero </button>
 		</div>
+
 	</body>
 </html>
