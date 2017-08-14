@@ -4,8 +4,12 @@ body {
 
 h1, h2 {
 	color: black;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Palatino", Palatino, serif;
 	text-align: center;
+}
+
+td {
+  width: 50%
 }
 
 #zeroButton {
@@ -89,14 +93,14 @@ h1, h2 {
 
 #percentDisplay {
   /*display: inline-block;*/
-  padding: 75px 100px;
+  padding: 25px 100px;
 	font-size: 42px;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
 	outline: none;
 	color: black;
-	background-color: lightgreen;
+	background-color: lightsteelblue;
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 9px grey;
@@ -104,14 +108,14 @@ h1, h2 {
 
 #fractionDisplay {
   /*display: inline-block;*/
-  padding: 75px 100px;
+  padding: 25px 100px;
   font-size: 42px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
   color: black;
-  background-color: lightgreen;
+  background-color: lightsteelblue;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px grey;
