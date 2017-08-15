@@ -22,6 +22,8 @@ h1 {
   box-shadow: 0 9px grey;
 }
 
+/*** NAVIGATION BAR CSS ***/
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -52,6 +54,8 @@ li a:hover{
 	background-color: lightsteelblue;
 	color: white;
 }
+
+/**********************/
 
 td {
   width: 25%;
