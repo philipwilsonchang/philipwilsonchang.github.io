@@ -20,6 +20,12 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-family: sans-serif;
+	font-size:26pt;
+	text-align: center
+}
+
 /*** NAVIGATION BAR CSS ***/
 
 ul {
