@@ -3,6 +3,11 @@ Burgundy: #681929
 Ivory: #F1EFD6
 Dusty Gold: #DBA736
 Sage Green: #90A086
+
+FADA5E - Stil de Grain Yellow
+F8DE7E - Mellow Yellow
+F0DC82 - Buff
+EFD873 - Hansa Yellow
 */
 
 body {
@@ -26,7 +31,7 @@ h2 {
 	font-family: monospace;
 	font-size:64pt;
 	text-align: center;
-	color: #DBA736
+	color: #EFD873
 }
 
 h3 {
