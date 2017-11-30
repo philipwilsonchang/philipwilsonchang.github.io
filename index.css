@@ -26,7 +26,7 @@ body {
     margin: 5%;
     height:450px;
     border-radius:25px;
-    border: 5px solid #82A070;
+    border: 15px solid #82A070;
     box-shadow: 10px 10px 5px #4C121D;
 
     /* Center items within this div, arranging elements vertically */
@@ -41,7 +41,7 @@ body {
     margin: 5%;
     height:450px;
     border-radius:25px;
-    border: 5px solid #82A070;
+    border: 15px solid #82A070;
     box-shadow: 10px 10px 5px #4C121D;
 
     /* Center items within this div, arranging elements vertically */
