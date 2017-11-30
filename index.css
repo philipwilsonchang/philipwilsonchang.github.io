@@ -1,6 +1,10 @@
 /*
 Burgundy: #681929
+Burgundy Shadow: #4C121D;
+
 Ivory: #F1EFD6
+Ivory Shadow: #CCCAB5;
+
 Dusty Gold: #DBA736
 Sage Green: #90A086
 
@@ -9,12 +13,49 @@ F8DE7E - Mellow Yellow
 F0DC82 - Buff
 EFD873 - Hansa Yellow
 
-87A078 - Artichoke
 82A070 - Asparagus
+677F59 - Asparagus Shadow
 */
 
 body {
+	background-color: #681929;
+}
+
+.testbox1 {
+	/*background-color: #F1EFD6;*/
+    margin: 5%;
+    height:450px;
+    border-radius:25px;
+    border: 5px solid #EFD873;
+    box-shadow: 10px 10px 5px #4C121D;
+
+    /* Center items within this div, arranging elements vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testbox2 {
 	background-color: #F1EFD6;
+    margin: 5%;
+    height:450px;
+    border-radius:25px;
+    border: 5px solid #EFD873;
+    box-shadow: 10px 10px 5px #4C121D;
+
+    /* Center items within this div, arranging elements vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -23,25 +64,35 @@ header {
   padding:8px;
 }
 
+/* Title Text */
 h1 {
-  font-family: monospace;
+  font-family: "Petit Formal Script", cursive;
   font-size:64pt;
   text-align: center;
-  color: #681929 
+  color: #EFD873 
 }
 
 h2 {
-	font-family: monospace;
+	font-family: "Josefin Slab", serif;
 	font-size:64pt;
 	text-align: center;
-	color: #EFD873
+	color: #F1EFD6
 }
 
+/* Test Box 1 */
 h3 {
-	font-family: sans-serif;
+	font-family: "Josefin Slab", serif;
 	font-size:26pt;
 	text-align: center;
-	color: #82A070
+	color: #F1EFD6
+}
+
+/* Test Box 2 */
+h4 {
+	font-family: "Josefin Slab", serif;
+	font-size:26pt;
+	text-align: center;
+	color: #681929
 }
 
 /*** NAVIGATION BAR CSS ***/
