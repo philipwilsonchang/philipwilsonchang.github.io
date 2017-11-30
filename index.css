@@ -8,6 +8,9 @@ FADA5E - Stil de Grain Yellow
 F8DE7E - Mellow Yellow
 F0DC82 - Buff
 EFD873 - Hansa Yellow
+
+87A078 - Artichoke
+82A070 - Asparagus
 */
 
 body {
@@ -38,7 +41,7 @@ h3 {
 	font-family: sans-serif;
 	font-size:26pt;
 	text-align: center;
-	color: #90A086
+	color: #82A070
 }
 
 /*** NAVIGATION BAR CSS ***/
@@ -73,3 +76,4 @@ li a:hover{
 	background-color: lightsteelblue;
 	color: white;
 }
+
