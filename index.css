@@ -18,7 +18,10 @@ EFD873 - Hansa Yellow
 */
 
 body {
-	background-color: #681929;
+	background-image: url("sakurabw.png");
+    	background-color: #681929;
+    	background-blend-mode: multiply;
+    	background-repeat: repeat;
 }
 
 .testbox1 {
