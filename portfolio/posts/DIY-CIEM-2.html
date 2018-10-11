@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DIY CIEMs, v2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+							<!--
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+								</a>
+							-->
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="../../index.html">Home</a></li>
+							<li><a href="../index.html">Projects</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>DIY Custom IEMs, v2</h1>
+
+							<ol>
+								<li><a href="#intro">Introduction</a></li>
+								<li><a href="#shells">Shell Refinements</a></li>
+								<li><a href="#electronics">Electronics Refinements</a></li>
+							</ol>
+
+							<h2><a name="intro">1. Introduction</a></h2>
+
+							<p>This article only covers refinements to the custom IEM process. To see how these custom IEMs are produced in detail, please check out the <a href="DIY-CIEM-1.html">previous article</a> on v1 of these IEMs.</p>
+
+							<h2><a name="shells">1. Shell Refinements </a></h2>
+
+							<p>To improve the shell fit and comfort, I needed a shell that fit the contours of my ear more exactly and had a smoother finish than the shells on the v1 custom IEMs. In order to do so, I decided to coat the impressions in UV nail gel in order to get a smooth finish without changing their shape in the gelatin too much.</p>
+							<span class="image fit"><img src="../images/diem2/diem2-01.jpg" alt="" /></span>
+							<p>This adjustment yielded a much cleaner gelatin mold:</p>
+							<span class="image fit"><img src="../images/diem2/diem2-02.jpg" alt="" /></span>
+							<p> Which then yielded cleaner (still not perfect) shells: </p>
+							<span class="image fit"><img src="../images/diem2/diem2-03.jpg" alt="" /></span>
+							<p> To create cleaner shell lids, I used shards of polycarbonate from a previous project and started cutting them into rough shapes.</p>
+							<span class="image fit"><img src="../images/diem2/diem2-04.jpg" alt="" /></span>
+							<p> They would later be glued onto the shells (with electronics inside), then have their edges sanded down by rotary tool to make a perfect fit.</p>
+							<span class="image fit"><img src="../images/diem2/diem2-05.jpg" alt="" /></span>
+							<p> In further iterations, I created cleaner lids by simply pouring a puddle of UV nail gel into the UV curing station, then curing the puddle to create a flat and transparent piece of shell material. The flat piece is then glued and sanded onto the shells to create an even more seamless lid.</p>
+							<span class="image fit"><img src="../images/diem2/diem2-06.jpg" alt="" /></span>
+
+
+							<h2><a name="electronics">2. Electronics Refinements</a></h2>
+
+							<p>The most important part of the custom IEM fabrication process is tuning the sound of the IEMs. Because the IEMs are molded to the user, the sound must perfectly match the user's preferences, otherwise the IEMs have little use.</p>
+							<p>Thus, the electronics within my custom IEMs went through several iterations.</p>
+							<span class="image fit"><img src="../images/diem/diem-41.jpg" alt="" /></span>
+							<p> The first version of my IEMs used a Knowles GK-31732 driver with an additional CI-22955 driver soldered to the crossover on the GK. This was an attempt to boost the bass response of the drivers but ended up creating a bloomier bass. Thus, I aimed to wrangle the bass under control with the next revision.</p>
+
+							<span class="image fit"><img src="../images/diem2/diem2-07.jpg" alt="" /></span>
+							
+							<p>The first revision was to try to put the two CI drivers under the same acoustic tubing - allowing both of them to be damped at once and allowing the TWFK on the now-split-apart GK driver to have its own tubing. This should have the combined effect of wrestling the bass response down while allowing the TWFK's treble response to sing.</p>
+
+							<p> This first revision had the desired effect, but resulted in a very V-shaped frequency response (boosted bass with hot treble). I desired a flatter, more neutral response so I looked to designing my own crossover circuit to adjust the flow of current to each driver. After several back and forth exchanges with piotrus-g of <a href="https://thecustomart.com/">Custom Art</a> on Head-Fi, he suggested the following crossover:</p>
+
+							<span class="image fit"><img src="../images/diem2/diem2-circuit.jpg" alt="" /></span>
+							
+							<p> Which I proceeded to butcher with this mess of solder and SMD components.</p>
+
+							<span class="image fit"><img src="../images/diem2/diem2-08.jpg" alt="" /></span>
+							<span class="image fit"><img src="../images/diem2/diem2-09.jpg" alt="" /></span>
+							<span class="image fit"><img src="../images/diem2/diem2-10.jpg" alt="" /></span>
+
+							<p> As ghastly as it looked, it sounded amazing! Everything had a realistic timbre to it now - snare drums especially sounded much more natural. The soundstage expanded greatly and there was a lot more air. The bass was pulled back, but still had great impact and texture while letting every other part of the spectrum sing - and still being really authoritative when called on. The mids were in perfect balance - not recessed yet still giving the bass and treble room to rumble and shine. (shamelessly taken from my <a href="https://www.head-fi.org/threads/home-made-iems.430688/page-265#post-12039550">post</a> in Head-Fi)</p>
+							
+							<p> After using this pair for a while, I came across a user on Head-Fi that had disassembled the well-reviewed and universally praised Noble Savant - revealing only two drivers and a simple crossover. This came as a shock to most of the DIY custom IEM community on Head-Fi and demonstrated how tuning can be much more than adding more drivers and crossovers.</p>
+							<p> I knew I had to make my own pair.</p>
+
+							<span class="image fit"><img src="../images/diem2/diem2-11.jpg" alt="" /></span>
+							<span class="image fit"><img src="../images/diem2/diem2-12.jpg" alt="" /></span>
+
+							<p> Armed with an ED-29689, ED-30761, and the right resistors and dampers, I recreated them. Needless to say, they were amazing and remain my main pair to this day. </p>
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<!--
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							-->
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="https://github.com/philipwilsonchang" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://linkedin.com/in/philip-chang-598b8357/" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Philip Chang. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
