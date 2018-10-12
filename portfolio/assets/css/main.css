@@ -2325,7 +2325,7 @@ input, select, textarea {
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
-			margin: 0 0 2em 0;
+			/*margin: 0 0 2em 0;*/
 			width: 80%;
 		}
 
